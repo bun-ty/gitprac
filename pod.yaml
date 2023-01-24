@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: debug-network-pod
 spec:
-  containers:
+containers:
     - command:
         - sleep
         - "3600"
